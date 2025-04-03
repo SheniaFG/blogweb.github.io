@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de la Profesora</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #eef2f3;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #004080;
+        }
+        button {
+            background-color: #004080;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+        button:hover {
+            background-color: #002b5e;
+            transform: scale(1.1);
+        }
+        button:active {
+            transform: scale(0.9);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #004080;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Blog de la Profesora
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#materias">Materias impartidas</a></li>
+                <li><a href="#reconocimientos">Reconocimientos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <h1>Biografía Personal</h1>
+            <p>La profesora es docente en la Universidad Juárez Autónoma de Tabasco, con más de 25 años de experiencia impartiendo diversas materias.</p>
+            <img src="c:\\Users\\sheni\\Downloads\\profesora.jpg" alt="Profesora en ambiente educativo" style="width:100%; border-radius:10px;">
+        </section>
+        
+        <section id="materias">
+            <h2>Materias Impartidas</h2>
+            <p>Actualmente, la profesora imparte las siguientes materias:</p>
+            <ul>
+                <li>Programación 1</li>
+                <li>Sistemas Distribuidos</li>
+            </ul>
+        </section>
+        
+        <section id="botones">
+            <button onclick="location.href='clases.html'">La clase de ...</button>
+            <button onclick="location.href='redes.html'">Redes Sociales</button>
+        </section>
+        
+        <section id="reconocimientos">
+            <h2>Reconocimientos y Academias</h2>
+            <table>
+                <tr>
+                    <th>Reconocimiento</th>
+                    <th>Academia</th>
+                </tr>
+                <tr>
+                    <td>Ejemplo 1</td>
+                    <td>Ejemplo 2</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
